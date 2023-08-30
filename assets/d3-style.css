@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Unna&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Old Standard TT", serif;
+  font-family: "Unna", serif;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+main {
+  width: 50vw;
+  margin-left: 25vw;
+}
+
+#logo-wrap,
+#logo-description {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#logo-description {
+  height: 2vh;
+  background-color: #f6e19638;
+  border-top: 0.2px solid #ddbb1193;
+  font-size: 0.8rem;
+}
+
+#titolo > h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+#titolo > p {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+#img-wrap {
+  justify-content: center;
+  display: flex;
+}
+#img-wrap > img {
+  width: 50vw;
+  border-radius: 2%;
+  box-shadow: 0px 0px 15px 0.4px rgb(161, 160, 160);
+}
+#credit {
+  font-size: 0.8rem;
+  color: rgba(128, 128, 128, 0.652);
+}
+#featured {
+  font-size: 0.8rem;
+  color: rgba(184, 16, 16, 0.738);
+
+  border-left: 0.3px solid #ddbb1193;
+}
+#featured > p {
+  margin-left: 5px;
+}
+a {
+  color: #089175d1;
+}
+h2,
+b,
+#method > ol > li > b {
+  color: rgba(0, 0, 0, 0.9);
+}
+footer {
+  width: 50vw;
+  margin-left: 25vw;
+  display: flex;
+  font-size: 0.8rem;
+}
+li {
+  padding: 3px;
+  font-size: 0.9em;
+}
+
+h2 {
+  padding-bottom: 8px;
+  border-bottom: 0.3px solid #07cea659;
+}
