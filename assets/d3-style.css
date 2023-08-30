@@ -11,7 +11,8 @@ html {
 }
 main {
   width: 50vw;
-  margin-left: 25vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #logo-wrap,
@@ -55,13 +56,14 @@ main {
   color: rgba(128, 128, 128, 0.652);
 }
 #featured {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: rgba(184, 16, 16, 0.738);
 
   border-left: 0.3px solid #ddbb1193;
 }
 #featured > p {
   margin-left: 5px;
+  margin-top: 5px;
 }
 a {
   color: #089175d1;
@@ -83,6 +85,6 @@ li {
 }
 
 h2 {
-  padding-bottom: 8px;
+  padding-bottom: 15px;
   border-bottom: 0.3px solid #07cea659;
 }
